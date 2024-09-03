@@ -1,0 +1,2 @@
+# Conky
+some conky settings
