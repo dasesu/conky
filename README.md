@@ -11,7 +11,7 @@ created in the home directory with the following structure: a letter from our
 myConkySymbols, a space separation followed by a word which will be bold and one or more words corresponding
 to the description.
 
-The To-Do list is limited by 3 items only.
+The To-Do list is limited by 3 items only.  
 **E.g:**
 
 ```
