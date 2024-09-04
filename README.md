@@ -6,9 +6,12 @@ This script shows a minimalist frame that contain a date field, the local ip add
 ![date,ip,temp](img/date_ip_temperature_01.png "date, ip and temperature")
 
 ### To-Do: 
-For use the **todo_and_description_from_file.conf**, a file named **todo.md** must be created in the home directory with the following structure: a letter from our myConkySymbols, a space  separation followed by a word which will be bold and one or more optional words corresponding to the description.
+For use the **todo.conf**, a file named **~/dotfiles/conky/todo.md** must be created with the following structure.
 
-The To-Do list is limited by 3 items only.  
+* one or more joined characters from the myConkySymbols font
+* a space  separation followed by one or more words. This sentence will be split by '**;**'. if there are no '**;**' the  font weight of the sentence will be normal, if there are one or two '**;**' the first part will be bold, the second normal and if a third part is formed it will display as characters of myConkySymbols again.
+
+Este script esta limitado a 10 items.
 
 **E.g:**
 
